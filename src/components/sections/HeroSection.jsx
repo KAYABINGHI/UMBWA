@@ -4,7 +4,7 @@ import StatCard from '../cards/StatCard';
 
 const HeroSection = () => {
   return (
-    <section className="bg-gray-50 py-20 px-6">
+    <section id="home" className="bg-gray-50 py-20 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-6">

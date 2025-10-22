@@ -2,6 +2,13 @@ import React from 'react';
 
 
 const Header = () => {
+  const scrollToId = (e, id) => {
+    e.preventDefault();
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+    else window.location.hash = id;
+  };
+
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -13,13 +20,13 @@ const Header = () => {
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-gray-700 hover:text-emerald-600 transition">Home</a>
-          <a href="#" className="text-gray-700 hover:text-emerald-600 transition">About</a>
-          <a href="#" className="text-gray-700 hover:text-emerald-600 transition">Services</a>
-          <a href="#" className="text-gray-700 hover:text-emerald-600 transition">Contact Us</a>
+          <a href="#home" onClick={(e) => scrollToId(e, 'home')} className="text-gray-700 hover:text-emerald-600 transition">Home</a>
+          <a href="#about" onClick={(e) => scrollToId(e, 'about')} className="text-gray-700 hover:text-emerald-600 transition">About</a>
+          <a href="#services" onClick={(e) => scrollToId(e, 'services')} className="text-gray-700 hover:text-emerald-600 transition">Services</a>
+          <a href="#contact" onClick={(e) => scrollToId(e, 'contact')} className="text-gray-700 hover:text-emerald-600 transition">Contact Us</a>
         </div>
         
-        <button className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-full transition" style={{backgroundColor: '#FF7A59'}}>
+        <button onClick={(e) => scrollToId(e, 'contact')} className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-full transition" style={{backgroundColor: '#FF7A59'}}>
           Get Started
         </button>
       </nav>

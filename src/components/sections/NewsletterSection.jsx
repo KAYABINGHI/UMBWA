@@ -2,7 +2,7 @@ import React from 'react';
 
 const NewsletterSection = () => {
   return (
-    <section className="py-20 px-6 bg-emerald-600">
+    <section id="newsletter" className="py-20 px-6 bg-emerald-600">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-4xl font-bold text-white mb-4">Join To Our Newsletter</h2>
         <p className="text-emerald-100 mb-8">

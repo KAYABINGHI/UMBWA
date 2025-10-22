@@ -3,7 +3,7 @@ import TestimonialCard from '../cards/TestimonialCard';
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section id="testimonials" className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-emerald-600 font-semibold mb-2">TESTIMONIALS</p>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const CaringSection = () => {
   return (
-    <section className="py-20 px-6 bg-gray-50">
+    <section id="caring" className="py-20 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="text-emerald-600 font-semibold mb-2">CARING</p>

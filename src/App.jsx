@@ -11,6 +11,7 @@ import TestimonialsSection from './components/sections/TestimonialsSection';
 import PricingSection from './components/sections/PricingSection';
 import FAQSection from './components/sections/FAQSection';
 import NewsletterSection from './components/sections/NewsletterSection';
+import ContactSection from './components/sections/ContactSection';
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
       <PricingSection />
       <FAQSection />
       <NewsletterSection />
+  <ContactSection />
       <Footer />
     </div>
   );

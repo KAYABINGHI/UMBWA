@@ -4,7 +4,7 @@ import FeatureCard from '../cards/FeatureCard';
 
 const WhyChooseUs = () => {
   return (
-    <section className="py-20 px-6 bg-white">
+    <section id="about" className="py-20 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-emerald-600 font-semibold mb-2">ABOUT</p>

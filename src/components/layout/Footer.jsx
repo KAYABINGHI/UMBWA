@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
               <span className="text-emerald-600 font-bold text-xl">E</span>
             </div>
-            <span className="text-xl font-bold">ENDO</span>
+            <span className="text-xl font-bold">EMAGE</span>
           </div>
           <p className="text-emerald-100 text-sm">
             Empowering minds and transforming lives through compassionate mental health care.
@@ -51,7 +51,7 @@ const Footer = () => {
           <a href="#" className="hover:text-emerald-200 transition">Instagram</a>
           <a href="#" className="hover:text-emerald-200 transition">LinkedIn</a>
         </div>
-        <p className="text-emerald-100 text-sm">© 2025 ENDO Mental Health. All rights reserved.</p>
+        <p className="text-emerald-100 text-sm">© 2025 EMAGE Mental Health. All rights reserved.</p>
       </div>
     </footer>
   );
