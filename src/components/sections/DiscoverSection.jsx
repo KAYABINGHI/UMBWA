@@ -1,14 +1,12 @@
 import React from 'react';
+import Globalization from './Globalization-amico-1.svg';
 
 const DiscoverSection = () => {
   return (
     <section id="about" className="py-20 px-6 bg-gray-50">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="relative h-96 bg-gray-200 rounded-3xl">
-          {/* Decorative illustration placeholder */}
-          <div className="absolute inset-0 flex items-center justify-center">
-            <div className="w-32 h-32 bg-emerald-200 rounded-full"></div>
-          </div>
+        <div className="relative h-96  rounded-3xl overflow-hidden flex items-center justify-center">
+          <img src={Globalization} alt="globalization" className="max-w-full max-h-full object-contain p-6" />
         </div>
         
         <div>

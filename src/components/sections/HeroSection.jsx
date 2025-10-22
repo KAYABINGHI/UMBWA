@@ -1,6 +1,7 @@
 import React from 'react';
-import { Heart } from 'lucide-react';
+// using external image instead of lucide Heart icon
 import StatCard from '../cards/StatCard';
+import MentalBro from './Mental health-bro.svg';
 
 const HeroSection = () => {
   return (
@@ -19,13 +20,8 @@ const HeroSection = () => {
         </div>
         
         <div className="relative">
-          <div className="w-full h-96 bg-emerald-100 rounded-3xl flex items-center justify-center">
-            <div className="text-center">
-              <Heart className="w-24 h-24 text-emerald-600 mx-auto mb-4" />
-              <div className="space-y-2">
-                <div className="w-32 h-32 bg-white rounded-2xl mx-auto shadow-lg"></div>
-              </div>
-            </div>
+          <div className="w-full h-72 md:h-100  rounded-3xl overflow-hidden flex items-center justify-center">
+            <img src={MentalBro} alt="mental bro" className="max-w-full max-h-full object-contain" />
           </div>
         </div>
       </div>

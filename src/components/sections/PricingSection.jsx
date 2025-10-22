@@ -14,6 +14,7 @@ const PricingSection = () => {
         
         <div className="space-y-6">
           <PricingCard
+            variant="muted"
             title="Basic"
             price="$8.99"
             period="/ mo"
@@ -21,6 +22,7 @@ const PricingSection = () => {
           />
           
           <PricingCard
+            variant="featured"
             title="Standard"
             price="$16.99"
             period="/ mo"

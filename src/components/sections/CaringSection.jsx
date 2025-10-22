@@ -1,4 +1,5 @@
 import React from 'react';
+import CaringImg from './caring.png';
 
 const CaringSection = () => {
   return (
@@ -17,13 +18,8 @@ const CaringSection = () => {
           </button>
         </div>
         
-        <div className="relative h-96 bg-gray-200 rounded-3xl">
-          {/* Decorative checkerboard pattern */}
-          <div className="absolute inset-0 grid grid-cols-4 grid-rows-4">
-            {[...Array(16)].map((_, i) => (
-              <div key={i} className={`${i % 2 === 0 ? 'bg-gray-900' : 'bg-white'}`}></div>
-            ))}
-          </div>
+        <div className="relative h-96  rounded-3xl overflow-hidden flex items-center justify-center">
+          <img src={CaringImg} alt="caring" className="max-w-full max-h-full object-contain p-6" />
         </div>
       </div>
     </section>
