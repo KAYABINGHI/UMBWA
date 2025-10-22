@@ -1,16 +1,20 @@
 import React from 'react';
+import Logo from './logo.png';
+
 
 const Footer = () => {
   return (
     <footer className="bg-emerald-700 text-white py-12 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-8">
         <div>
-          <div className="flex items-center space-x-2 mb-4">
-            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-              <span className="text-emerald-600 font-bold text-xl">E</span>
+          <div className="flex items-center space-x-2">
+            <div className="w-48 h-48 md:w-32 md:h-14 rounded-lg overflow-hidden flex items-center justify-center p-1">
+              <img src={Logo} alt="EMAGE logo" className="w-full h-full object-contain" />
             </div>
-            <span className="text-xl font-bold">EMAGE</span>
+            {/* <span className="text-xl font-bold text-gray-900">EMAGE</span> */}
           </div>
+                  <br/>
+                  {/* <br/> */}
           <p className="text-emerald-100 text-sm">
             Empowering minds and transforming lives through compassionate mental health care.
           </p>
