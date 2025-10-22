@@ -26,7 +26,11 @@ const Header = () => {
           <a href="#contact" onClick={(e) => scrollToId(e, 'contact')} className="text-gray-700 hover:text-emerald-600 transition">Contact Us</a>
         </div>
         
-        <button onClick={(e) => scrollToId(e, 'contact')} className="bg-coral-500 hover:bg-coral-600 text-white px-6 py-2 rounded-full transition" style={{backgroundColor: '#FF7A59'}}>
+        <button
+          onClick={(e) => scrollToId(e, 'contact')}
+          className="bg-[#FF7A59] hover:bg-emerald-600 text-white px-6 py-2 rounded-full transition-colors duration-200 cursor-pointer focus:outline-none"
+          aria-label="Get started"
+        >
           Get Started
         </button>
       </nav>
