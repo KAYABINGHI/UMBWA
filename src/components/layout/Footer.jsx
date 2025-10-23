@@ -55,7 +55,7 @@ const Footer = () => {
           <a href="#" className="hover:text-emerald-200 transition">Instagram</a>
           <a href="#" className="hover:text-emerald-200 transition">LinkedIn</a>
         </div>
-        <p className="text-emerald-100 text-sm">© 2025 EMAGE Mental Health. All rights reserved.</p>
+        <p className="text-emerald-100 text-sm">© 2025 EMAGE. All rights reserved.</p>
       </div>
     </footer>
   );
