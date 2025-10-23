@@ -9,14 +9,22 @@ const HeroSection = () => {
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
           <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-6">
-            Healthy Minds, Happy Lives <span className="text-coral-500" style={{color: '#FF7A59'}}>Mental Health Consultancy</span>
+              Healthy Minds, Happy Lives{", "}
+              <span
+                  className="text-coral-500"
+                  style={{ color: '#FF7A59', fontSize: '0.65em' }}>EMAGE (Emotional Awareness and Guided Expression)
+              </span>
           </h1>
           <p className="text-gray-600 mb-8 text-lg">
             Expert guidance and support for your mental well-being journey. Our experienced consultants are here to help you achieve emotional balance and personal growth.
           </p>
-          <button className="bg-coral-500 hover:bg-coral-600 text-white px-8 py-3 rounded-full transition text-lg" style={{backgroundColor: '#FF7A59'}}>
-            Book Now
-          </button>
+
+            <button
+                // onClick={(e) => scrollToId(e, 'contact')}
+                className="bg-[#FF7A59] hover:bg-emerald-600 text-white px-6 py-2 rounded-full transition-colors duration-200 cursor-pointer focus:outline-none"
+                aria-label="Get started"
+            >
+                Book Now            </button>
         </div>
         
         <div className="relative">
