@@ -8,11 +8,11 @@ const HeroSection = () => {
     <section id="home" className="bg-gray-50 py-20 px-6">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <h1 className="text-5xl font-bold text-gray-900 leading-tight mb-6">
-              Healthy Minds, Happy Lives{", "}
+          <h1 className="text-4xl font-bold text-gray-900 leading-tight mb-6">
+              EMAGE (Emotional Awareness and Guided Expression) {", "}
               <span
                   className="text-coral-500"
-                  style={{ color: '#FF7A59', fontSize: '0.65em' }}>EMAGE (Emotional Awareness and Guided Expression)
+                  style={{ color: '#FF7A59', fontSize: '0.96em' }}>Healthy Minds, Happy Lives
               </span>
           </h1>
           <p className="text-gray-600 mb-8 text-lg">
