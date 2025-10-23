@@ -1,5 +1,6 @@
 import React from 'react';
 import Logo from './logo.png';
+import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
 
 
 const Footer = () => {
@@ -50,10 +51,18 @@ const Footer = () => {
       
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-emerald-600 text-center">
         <div className="flex justify-center space-x-6 mb-4">
-          <a href="#" className="hover:text-emerald-200 transition">Facebook</a>
-          <a href="#" className="hover:text-emerald-200 transition">Twitter</a>
-          <a href="#" className="hover:text-emerald-200 transition">Instagram</a>
-          <a href="#" className="hover:text-emerald-200 transition">LinkedIn</a>
+          <a href="#" aria-label="Facebook" className="group hover:text-emerald-200 transition">
+            <Facebook className="w-5 h-5 text-emerald-100 group-hover:text-[#1877F2] transition-colors" />
+          </a>
+          <a href="#" aria-label="Twitter" className="group hover:text-emerald-200 transition">
+            <Twitter className="w-5 h-5 text-emerald-100 group-hover:text-[#1DA1F2] transition-colors" />
+          </a>
+          <a href="#" aria-label="Instagram" className="group hover:text-emerald-200 transition">
+            <Instagram className="w-5 h-5 text-emerald-100 group-hover:text-[#C13584] transition-colors" />
+          </a>
+          <a href="#" aria-label="LinkedIn" className="group hover:text-emerald-200 transition">
+            <Linkedin className="w-5 h-5 text-emerald-100 group-hover:text-[#0A66C2] transition-colors" />
+          </a>
         </div>
         <p className="text-emerald-100 text-sm">© 2025 EMAGE. All rights reserved.</p>
       </div>
