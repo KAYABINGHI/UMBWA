@@ -20,7 +20,7 @@ const HeroSection = () => {
         </div>
         
         <div className="relative">
-          <div className="w-full h-72 md:h-100  rounded-3xl overflow-hidden flex items-center justify-center">
+          <div className="w-full h-72 md:h-150  rounded-3xl overflow-hidden flex items-center justify-center">
             <img src={MentalBro} alt="mental bro" className="max-w-full max-h-full object-contain" />
           </div>
         </div>
