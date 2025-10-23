@@ -12,7 +12,7 @@ const HeroSection = () => {
               EMAGE (Emotional Awareness and Guided Expression) {", "}
               <span
                   className="text-coral-500"
-                  style={{ color: '#FF7A59', fontSize: '0.96em' }}>Healthy Minds, Happy Lives
+                  style={{ color: '#FF7A59', fontSize: '1.7em' }}>Healthy Minds, Happy Lives
               </span>
           </h1>
           <p className="text-gray-600 mb-8 text-lg">
