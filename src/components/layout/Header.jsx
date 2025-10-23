@@ -17,7 +17,7 @@ const Header = () => {
             <div className="w-48 h-48 md:w-32 md:h-14 rounded-lg overflow-hidden flex items-center justify-center bg-white p-1">
               <img src={Logo} alt="EMAGE logo" className="w-full h-full object-contain" />
           </div>
-          {/* <span className="text-xl font-bold text-gray-900">EMAGE</span> */}
+        
         </div>
         
         <div className="hidden md:flex items-center space-x-8">
